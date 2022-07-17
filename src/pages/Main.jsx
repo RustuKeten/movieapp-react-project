@@ -24,11 +24,11 @@ const Main = () => {
   }, []);
 
   return (
-    <div className="container">
-      <div className="row">
-        <div className="main d-flex justify-content-center mt-1 ">
+    <div className="container-fluid ">
+      <div className="row" style={{ height: "10rem" }}>
+        <div className="main d-flex justify-content-center bg-secondary mb-2">
           <Input
-            className="border border-3"
+            className="border border-3 bg-white"
             id="search"
             placeholder="search a movie"
           />

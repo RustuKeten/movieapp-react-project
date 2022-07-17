@@ -1,0 +1,23 @@
+.card-body {
+  position: relative;
+}
+
+.overview {
+  position: absolute;
+  bottom: 0;
+  line-height: 1.02rem;
+  left: 285px;
+  width: 220px;
+  display: none;
+  overflow: hidden;
+  color: black;
+  transition: all ease-in-out 0.7s;
+}
+
+.card-body:hover .overview {
+  background-color: white;
+  position: absolute;
+  display: block;
+  color: black;
+  transform: translate(-276px);
+}
