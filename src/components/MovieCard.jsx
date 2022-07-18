@@ -1,5 +1,5 @@
-const MovieCard = (movieData) => {
-  const { title, overview, poster_path } = movieData;
+const MovieCard = (props) => {
+  const { title, overview, poster_path } = props;
   return (
     <div className="card-body row">
       <div className="col">
@@ -16,7 +16,10 @@ const MovieCard = (movieData) => {
             >
               {title}
             </h5>
-            <p className="overview card-text text-hover">{overview}</p>
+            <p className="overview card-text text-hover h-6">
+              Overview:
+              <br></br> {overview}
+            </p>
           </div>
         </div>
       </div>
@@ -25,23 +28,3 @@ const MovieCard = (movieData) => {
 };
 
 export default MovieCard;
-
-// <div class="container">
-//   <div class="row">
-//     <div class="col-md-4">
-//       <div class="content">
-//         <div class="content-overlay"></div>{" "}
-//         <img
-//           class="content-image"
-//           src="https://i.imgur.com/7cNRozs.jpg"
-//         />
-//         <div class="content-details fadeIn-bottom">
-//           <h3 class="content-title">Geysers Valley Hotel</h3>
-//           <p class="content-text">
-//             <i class="fa fa-map-marker"></i> Russia
-//           </p>
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-// </div>;

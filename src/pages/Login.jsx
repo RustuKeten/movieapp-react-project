@@ -18,18 +18,13 @@ const Login = () => {
           alt=""
         />
       </div>
-      <div className="login m-4 w-50 ">
+      <div className="login m-4 w-50 bg-light ">
         <h1 className="display-2 m-auto text-center">LOGIN</h1>
-        <FormGroup className="m-auto p-4">
+        <FormGroup className="m-auto p-4 bg-light">
           <FormControl>
             <InputLabel htmlFor="email">Email address</InputLabel>
-            <Input
-              className=" "
-              id="email"
-            />
-            <FormHelperText>
-              We'll never share your email.
-            </FormHelperText>
+            <Input className=" " id="email" />
+            <FormHelperText>We'll never share your email.</FormHelperText>
           </FormControl>
           <FormControl>
             <InputLabel htmlFor="password">Password</InputLabel>

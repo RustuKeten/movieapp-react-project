@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
   return (
-    <div className="navbar bg-primary ml-2">
-      <div className="navLeft text-light">
+    <div className="navbar bg-primary ">
+      <div className="navLeft text-light ">
         <h4 onClick={() => navigate("/")}>React Movie App</h4>
       </div>
       <div className="navRight g-1">

@@ -8,17 +8,17 @@ import {
   Link,
 } from "@mui/material";
 
-const Register= () => {
+const Register = () => {
   return (
-    <div className="d-flex m-auto">
-      <div className="w-50">
+    <div className="d-flex m-auto ">
+      <div className="w-50 ">
         <img
           //   style={{ height: "600px" }}
           src="https://picsum.photos/900"
           alt=""
         />
       </div>
-      <div className="login m-4 w-50 ">
+      <div className="login m-4 w-50 bg-light">
         <h1 className="display-2 m-auto text-center">REGISTER</h1>
         <FormGroup className="m-auto p-4">
           <FormControl>
